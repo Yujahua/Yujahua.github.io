@@ -1,9 +1,9 @@
 <template>
-    <div class="home">
+    <div class="welcome">
         <header>
             <span align="left" class="head_left">
               <ul><li>
-                <a class="step" href="/hello"><- HelloWorld</a>
+                <a href="https://github.com/Yujahua/">到我的GitHub</a>
               </li>
               </ul>
             </span>
@@ -22,15 +22,15 @@
               </ul>
             </span>
         </header>
-        <a href="">
+        <a href="/">
           <img alt="Zorro logo" width=100 height=100 src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png">
         </a>
         <h3>{{ msg }}</h3>
         <p align="center" class="Zorro">
           <ul>
-            <li><span class="center">Zorro 主页</span></li>
-            <li><span class="center">Zorro 主页</span></li>
-            <li><span class="center">Zorro 主页</span></li>
+            <li><span class="center">Zorro 欢迎页</span></li>
+            <li><span class="center">Zorro 欢迎页</span></li>
+            <li><span class="center">Zorro 欢迎页</span></li>
           </ul>
         </p>
         <footer>
@@ -45,7 +45,7 @@
 
 <script>
 export default {
-    name: 'HomePage',
+    name: 'HelloWorld',
     props: {
         msg: String
     }
@@ -53,10 +53,10 @@ export default {
 </script>
 
 <style scoped>
-a.step{
-  color: #fff;
+a{
+  text-decoration: none;
 }
-.home{
+.welcome{
     text-align: center;
 }
 </style>

@@ -12,8 +12,6 @@ Module Error (from ./node_modules/eslint-loader/index.js):
 </template>
 
 <script>
-import Error404 from './components/Error404.vue'
-
 export default {
     name: 'Error404'
 }

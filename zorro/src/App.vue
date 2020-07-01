@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HomePage msg="Zorro"/>
+    <HelloWorld msg="Zorro"/>
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    HelloWorld
   }
 }
 </script>
@@ -22,5 +22,35 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+header,footer{
+  color: #fff;
+}
+header{
+  background-color: #607D8B;
+  margin-bottom: 1em;
+}
+footer{
+  background-color: #673ab7;
+}
+
+.head_left, .head_right{
+  display: inline-block;
+  width: 50%;
+}
+.foot{
+  display: inline-block;
+}
+.GitHub{
+  display: block;
+  fill: currentColor;
+  color: #fff;
+}
+.GitHub:hover{
+    opacity: 0.5;
+  }
+.Zorro .center{
+  display: inline-block;
+  height: 32em;
 }
 </style>
