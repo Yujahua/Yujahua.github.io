@@ -1,11 +1,43 @@
 <template>
     <div class="welcome">
         <header>
-            ...
+            <span align="left" class="head_left">
+              <ul><li>
+                随手翻翻
+              </li>
+              </ul>
+            </span>
+            <span align="right" class="head_right">
+              <ul><li>
+                GitHub
+              </li>
+              <li>
+                <a href="https://github.com/" target="_blank">
+                  <svg class="GitHub" viewBox="0 0 16 16" height="32" width="32"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/" target="_blank"><img class="GitHub" src="/GitHub.svg"/></a>
+              </li>
+              </ul>
+            </span>
         </header>
-        <img alt="Zorro logo" width=100 height=100 src="../assets/8346747.png">
+        <img alt="Zorro logo" width=100 height=100 src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png">
         <h3>{{ msg }}</h3>
-        <footer>页脚</footer>
+        <p align="center" class="Zorro">
+          <ul>
+            <li><span class="center">Zorro</span></li>
+            <li><span class="center">Zorro</span></li>
+            <li><span class="center">Zorro</span></li>
+          </ul>
+        </p>
+        <footer>
+          <span class="foot">
+            <ul>
+              <li>© 2020 Yujahua.github</li>
+            </ul>
+          </span>
+        </footer>
     </div>
 </template>
 
@@ -19,22 +51,33 @@ export default {
 </script>
 
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+header,footer{
+  color: #fff;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+header{
+  background-color: #607D8B;
+  margin-bottom: 1em;
 }
-li {
+footer{
+  background-color: #673ab7;
+}
+.head_left, .head_right{
   display: inline-block;
-  margin: 0 10px;
+  width: 50%;
 }
-a {
-  color: #42b983;
+.foot{
+  display: inline-block;
 }
-
-.welcome {
-    color: 
+.GitHub{
+  display: block;
+  fill: currentColor;
+  color: #fff;
+}
+.GitHub:hover{
+    opacity: 0.5;
+  }
+.Zorro .center{
+  display: inline-block;
+  height: 32em;
 }
 </style>
