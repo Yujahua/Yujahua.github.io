@@ -3,7 +3,7 @@
         <header>
             <span align="left" class="head_left">
               <ul><li>
-                <a class="step" href="/hello"><- HelloWorld</a>
+                <a class="step" href="/hello">&lt;- HelloWorld</a>
               </li>
               </ul>
             </span>

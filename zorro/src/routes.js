@@ -1,4 +1,5 @@
 export default {
-    '/': 'HomePage',
-    '/hello': 'HelloWorld'
+    '/': 'HelloWorld',
+    '/hello': 'HelloWorld',
+    '/home': 'HomePage'
   }
