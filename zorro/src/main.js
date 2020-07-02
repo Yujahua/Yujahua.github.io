@@ -4,6 +4,12 @@ import routes from './routes'
 
 Vue.config.productionTip = false
 
+String.prototype.hash = function(){
+  return this.indexOf("/#") > -1
+  ? this.match(/\/#(.*)$/)[1]
+  : ""
+}
+
 const app = new Vue({
   data: {
     // responsive variable declare 响应式变量声明
@@ -11,7 +17,10 @@ const app = new Vue({
   },
   computed: {
     ViewComponent () {
-      const matchingView = routes[this.currentRoute];
+      const matchingView = routes[this.currentRoute == '/'
+        ? window.location.href.hash()
+        : this.currentRoute
+      ];
       return matchingView
         ? require("./components/" + matchingView + ".vue").default
         : require("./components/Error404.vue").default
@@ -42,5 +51,5 @@ const app = new Vue({
 }).$mount('#app')
 
 window.addEventListener("popstate", () => {
-  app.currentRoute = window.location.pathname;
+  app.currentRoute = window.location.href.hash();
 });

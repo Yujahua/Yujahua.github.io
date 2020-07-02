@@ -1,0 +1,19 @@
+<template>
+     <a v-bind:href="href"
+        <slot></slot>
+        </a>
+</template>
+
+<script>
+    import routes from '../routes'
+
+    exprot default {
+        name: 'ALink',
+        props: {
+            href: {
+                type: String,
+                required: true
+            }
+        }
+    }
+</script>

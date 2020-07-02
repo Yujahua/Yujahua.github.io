@@ -3,7 +3,7 @@
         <header>
             <span align="left" class="head_left">
               <ul><li>
-                <a class="step" href="/hello">&lt;- HelloWorld</a>
+                <a class="step" href="/#hello">&lt;- HelloWorld</a>
               </li>
               </ul>
             </span>
@@ -17,12 +17,12 @@
                 </a>
               </li>
               <li>
-                <a href="https://github.com/" target="_blank"><img class="GitHub" src="/GitHub.svg"/></a>
+                <a href="https://github.com/" target="_blank"><img class="GitHub" src="https://yujahua.github.io/Yujahua.github.assets/svg/GitHub.svg"/></a>
               </li>
               </ul>
             </span>
         </header>
-        <a href="">
+        <a href="/#home">
           <img alt="Zorro logo" width=100 height=100 src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png">
         </a>
         <h3>{{ msg }}</h3>

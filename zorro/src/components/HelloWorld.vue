@@ -19,7 +19,7 @@
               </ul>
             </span>
         </header>
-        <a href="/home">
+        <a href="/#home">
           <img alt="Zorro logo" width=100 height=100 src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png">
         </a>
         <h3>{{ msg }}</h3>
