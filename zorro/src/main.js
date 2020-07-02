@@ -6,6 +6,7 @@ Vue.config.productionTip = false
 
 const app = new Vue({
   data: {
+    // responsive variable declare 响应式变量声明
     currentRoute: window.location.pathname
   },
   computed: {
@@ -30,6 +31,9 @@ const app = new Vue({
       )
     }
   },
+  // 因为routes路由切换失效的原因，无法把渲染过后的组件绑定在App上
+  // Q: 如何能让App作为顶层组件的同时，实现路由的切换呢？
+  // A: ..
   // render: h => h(App),
   render (h) {
     return h(this.ViewComponent)
