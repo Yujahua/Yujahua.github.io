@@ -10,7 +10,7 @@
   }
   header{
     background-color: #607D8B;
-    margin-bottom: 1em;
+    margin-bottom: 5em;
   }
   footer{
     background-color: #673ab7;
@@ -32,6 +32,10 @@
       opacity: 0.6;
     }
   .Zorro .center{
+    padding: 1em;
     display: inline-block;
-    height: 32em;
+    width: 200px;
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
   }

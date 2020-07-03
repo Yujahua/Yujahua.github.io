@@ -51,6 +51,6 @@ footer{
   }
 .Zorro .center{
   display: inline-block;
-  height: 32em;
+  height: 10em;
 }
 </style>

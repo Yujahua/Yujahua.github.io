@@ -23,10 +23,10 @@
             </span>
         </header>
         <Alink href="home">
-          <img alt="Zorro logo" width=100 height=100 src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png">
+          <img alt="Zorro logo" src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png">
         </Alink>
-        <h3>{{ msg }}</h3>
-        <p align="center" class="Zorro">
+        <h3>Zorro</h3>
+        <p align="center" class="main">
           <ul>
             <li><span class="center">Zorro 主页</span></li>
             <li><span class="center">Zorro 主页</span></li>
