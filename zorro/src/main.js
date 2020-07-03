@@ -16,14 +16,11 @@ String.prototype.hash = function(){
 const app = new Vue({
   data: {
     // responsive variable declare 响应式变量声明
-    currentRoute: window.location.pathname
+    currentRoute: window.location.href.hash()
   },
   computed: {
     ViewComponent () {
-      const matchingView = routes[this.currentRoute == '/'
-        ? window.location.href.hash()
-        : this.currentRoute
-      ];
+      const matchingView = routes[this.currentRoute];
       return matchingView
         ? require("./components/" + matchingView + ".vue").default
         : require("./components/Error404.vue").default

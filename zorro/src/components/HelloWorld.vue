@@ -19,9 +19,9 @@
               </ul>
             </span>
         </header>
-        <a href="/#home">
+        <Alink href="home">
           <img alt="Zorro logo" width=100 height=100 src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png">
-        </a>
+        </Alink>
         <h3>{{ msg }}</h3>
         <p align="center" class="Zorro">
           <ul>
@@ -41,10 +41,15 @@
 </template>
 
 <script>
+import Alink from './Alink.vue'
+
 export default {
     name: 'HelloWorld',
     props: {
         msg: String
+    },
+    components: {
+      Alink
     }
 }
 </script>
