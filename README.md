@@ -1,5 +1,5 @@
 # Yujahua.github.io
-我的主页
+[我的主页]
 
 <p align="center"><img src="https://yujahua.github.io/Yujahua.github.assets/png/8346747_ori.png"/></p>
 <p align="right">二零二零年六月末</p>
@@ -8,4 +8,5 @@
 
 在参与项目之前，请务必阅读[CODE_OF_CONDUCT.md]
 
-[CODE_OF_CONDUCT.md]:https://Yujahua.github.io/.github/CODE_OF_CONDUCT.md
+[我的主页]:https://yujahua.github.io/dist/
+[CODE_OF_CONDUCT.md]:https://github.com/Yujahua/Yujahua.github.io/blob/master/.github/CODE_OF_CONDUCT.mds

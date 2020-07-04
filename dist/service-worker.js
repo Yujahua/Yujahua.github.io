@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.200dfe51ea88d5036c1f101ddfa205d9.js"
+  "precache-manifest.5adc8f11562b9ce1d070d42ebe42f177.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "zorro"});

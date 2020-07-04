@@ -1,6 +1,5 @@
 import Vue from 'vue'
-
-// import App from './App.vue'
+import App from './App.vue'
 import routes from './routes'
 
 import './registerServiceWorker'
@@ -46,7 +45,7 @@ const app = new Vue({
   // B: 暂时只能用备用方案，不用App.vue
   // render: h => h(App),
   render (h) {
-    return h(this.ViewComponent)
+    return h(App)
   }
 
 }).$mount('#app')

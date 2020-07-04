@@ -1,5 +1,5 @@
 <template>
-    <div class="welcome gray">
+    <div class="welcome">
         <header>
             <span align="left" class="head_left">
               <ul><li>
