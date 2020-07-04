@@ -1,5 +1,5 @@
 <template>
-    <div class="welcome">
+    <div class="welcome gray">
         <header>
             <span align="left" class="head_left">
               <ul><li>
@@ -21,7 +21,9 @@
         </header>
         <div class="left"></div>
         <div class="cont">
-        <img alt="Zorro logo" src="https://yujahua.github.io/Yujahua.github.assets/jpeg/sunset_ori.jpeg">
+        <p class="sunset">
+          <img alt="sunset" src="https://yujahua.github.io/Yujahua.github.assets/jpeg/sunset_ori.jpeg">
+        </p>
         <h1 class="zorro">
           <Alink href="home">Zorro</Alink>
         </h1>
@@ -43,7 +45,7 @@
         </p>
         </div>
         <div class="right">
-          <h1>发送留言给我们？</h1>
+          <h1>发送留言给<span class="email">Yujahua@163.com</span>？</h1>
           <p align="center">
             <input type="text" class="message"/>
             <input type="button" class="send" value="send"/>
@@ -107,7 +109,10 @@ a{
   width: 15em;
 }
 .zorro{
-  font-size: 2em;
+  font-size: 3em;
+}
+.sunset{
+  background-color: #000000;
 }
 .right{
   width: 100%;
@@ -131,14 +136,14 @@ a{
   height: 3.3em;
   border-radius: 3.3em;
   border-color: #666;
-  background-color: lightgreen;
   color: #fff;
   outline: none;
   position: absolute;
   right: 0;
 }
-.right .send:hover{
-  background-color: #42b983;
-  border-color: #42b983;
+.email{
+  font-size: 0.8em;
+  text-decoration: underline;
+  font-style: italic;
 }
 </style>
