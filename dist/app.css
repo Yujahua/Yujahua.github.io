@@ -8,6 +8,7 @@
 
   .green header a{
     color: #ffffff;
+    text-decoration: underline;
   }
   .green header, .green footer, .green input[type=button]{
     background-color: #42b983;
