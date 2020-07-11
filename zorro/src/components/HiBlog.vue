@@ -1,4 +1,5 @@
 <template>
+    <div>
     <!-- 博客页头 -->
     <BlogHeader>
         <!-- 博客大头照 -->
@@ -25,6 +26,7 @@
         <!-- 联系我 -->
         <ContactMe></ContactMe>
     </BlogFooter>
+    </div>
 </template>
 <script>
 </script>
