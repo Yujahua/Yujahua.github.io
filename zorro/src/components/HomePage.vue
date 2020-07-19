@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="home gray">
         <header>
             <span align="left" class="head_left">
               <ul><li>
