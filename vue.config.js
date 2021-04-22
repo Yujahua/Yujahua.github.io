@@ -2,7 +2,7 @@
 module.exports = {
     // 选项
     publicPath: process.env.NODE_ENV === 'production' ? '' : '/',
-    outputDir: '../dist',
+    outputDir: 'dist',
     pwa: {
         name: 'Zorro',
         themeColor:  '#4DBA87',
