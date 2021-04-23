@@ -1,4 +1,5 @@
 // vue.config.js
+const path = require('path')
 module.exports = {
     // 选项
     publicPath: process.env.NODE_ENV === 'production' ? '' : '/',
@@ -15,6 +16,13 @@ module.exports = {
             appleTouchIcon: 'img/icons/apple-touch-icon-60x60.png',
             maskIcon: 'img/icons/apple-touch-icon-60x60.png',
             msTileImage: 'img/icons/apple-touch-icon-60x60.png'
+        }
+    },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@': path.resolve(__dirname, 'src/')
+            }
         }
     }
 }
