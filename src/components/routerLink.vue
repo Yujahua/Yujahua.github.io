@@ -1,5 +1,5 @@
 <template>
-     <a v-bind:href="this.pathname+href">
+     <a v-bind:href="this.pathname+to">
         <slot></slot>
     </a>
 </template>
@@ -12,7 +12,7 @@
             }
         },
         props: {
-            href: {
+            to: {
                 type: String,
                 required: true
             }

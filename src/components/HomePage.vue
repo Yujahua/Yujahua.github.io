@@ -1,4 +1,5 @@
 <template>
+  <div class="gray">
     <div class="welcome">
         <header>
             <span align="left" class="head_left">
@@ -24,7 +25,7 @@
           <img alt="sunset" src="https://jiahwa.github.io/assets/jpeg/sunset_ori.jpeg">
         </p>
         <h1 class="zorro">
-          <Alink href="home">Zorro Steps</Alink>
+          <router-link to="github">Zorro Blog</router-link>
         </h1>
         <p align="center" class="main">
           <ul>
@@ -58,17 +59,18 @@
           </span>
         </footer>
     </div>
+  </div>
 </template>
 
 <script>
-import Alink from './Alink.vue'
+import routerLink from './routerLink.vue'
 
 export default {
     props: {
         msg: String
     },
     components: {
-      Alink
+      routerLink
     }
 }
 </script>
